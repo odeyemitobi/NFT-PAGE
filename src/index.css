@@ -1,6 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Righteous&display=swap');
 
 body {
   margin: 0;
@@ -15,4 +16,22 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+h1, p{
+  color: white;
+}
+
+.search{
+  background: rgba(255, 255, 255, 0.38);
+}
+
+.font1{
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+}
+
+.font2{
+  font-family: 'Righteous', cursive;
+  font-style: normal;
 }
